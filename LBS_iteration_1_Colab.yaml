@@ -50,7 +50,7 @@ use_sc: true                                                                    
 # all arrays are expected to have the shape of (nframe, natom, ?) except the fixed fields
 # note that if your data set uses pbc, you need to also pass an array that maps to the nequip "pbc" key
 dataset: ase                                                                       # type of data set, can be npz or ase
-dataset_file_name: cs433-project-2/iteration_1.extxyz                                              # path to data set file
+dataset_file_name: ML-Project-2-Colab/iteration_1.extxyz                                              # path to data set file
 ase_args:
   format: extxyz
 include_keys:
